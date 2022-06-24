@@ -1,10 +1,10 @@
 import React, {  } from 'react';
-
+import { Example } from '@pages/Example';
 function App() {
   
-  return (
+  return ( 
     <div className="App">
-      hi there!
+      <Example />
     </div>
   );
 }
