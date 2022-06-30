@@ -1,10 +1,13 @@
 import React, {  } from 'react';
-import { Example } from '@pages/Example';
+import GameContainer from '@pages/GameContainer';
+
+import './App.scss';
+
 function App() {
   
   return ( 
     <div className="App">
-      <Example />
+      <GameContainer />
     </div>
   );
 }
