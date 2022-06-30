@@ -1,0 +1,16 @@
+.full-screen{
+  width: 100% !important; 
+  height: 100% !important;
+}
+
+.App, .react-p5, canvas{
+  @extend .full-screen
+}
+.react-p5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
