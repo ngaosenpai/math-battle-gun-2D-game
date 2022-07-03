@@ -23,7 +23,8 @@
       "@pages/*" : ["./pages/*"],
       "@routes/*" : ["./routes/*"],
       "@types" : ["./types"],
-      "@utils/*" : ["./utils/*"],
+      "@utils" : ["./utils"],
+      "@constants" : ["./constants"]
     }
   },
   "include": ["src"],
