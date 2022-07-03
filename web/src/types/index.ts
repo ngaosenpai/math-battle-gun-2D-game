@@ -1,5 +1,12 @@
-export const LEFT = 'LEFT' as const;
-export const RIGHT = 'RIGHT' as const;
+import { 
+  Sphere, 
+  SphereObstacle, 
+  Bullet 
+} from '@components/2Ds';
+import { 
+  LEFT,
+  RIGHT
+} from '@constants';
 
 export type LoR = typeof LEFT | typeof RIGHT;
 
@@ -14,3 +21,8 @@ export type Limit = {
   up: number
   down: number
 }
+
+export type Range = [number, number]
+
+export type Object2D = Sphere | SphereObstacle | Bullet
+export type ProcessFunction = () => void

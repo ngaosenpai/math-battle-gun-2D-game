@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import P5Canvas from '@components/P5Canvas';
+import { P5Canvas } from '@components/P5Canvas';
 
 function GameContainer() {
 
@@ -22,7 +22,7 @@ function GameContainer() {
 
   return (
     <div ref={containerRef} className='full-screen'>
-      <P5Canvas width={size.w} height={size.h} />
+      <P5Canvas width={1024} height={480} />
     </div>
   );
 }
